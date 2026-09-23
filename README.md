@@ -6,9 +6,9 @@
 
 下载同目录的 `Porymap-6.3.1-简体中文包.zip`，将压缩包内容解压到已有 `porymap.exe` 的 Porymap 文件夹中，然后运行 `启动简体中文版.cmd`。压缩包根目录包含 `zh_CN` 文件夹、启动脚本、安装说明和许可证。
 
-在 SeaBreezeGBA 项目内也可以直接运行项目根目录的 `打开中文地图编辑器.cmd`，它会从游戏的 `source` 目录启动编辑器。
 
-原版和中文版可以并排使用。卸载时删除新增的 `zh_CN` 文件夹及启动脚本即可。本包不包含游戏工程、ROM、地图或 Pokémon 素材。
+
+原版和中文版可以并排使用。卸载时删除新增的 `zh_CN` 文件夹及启动脚本即可。本包不绑定任何具体游戏工程，也不包含 ROM、地图或游戏素材。
 
 ## 版本与翻译
 
@@ -31,4 +31,5 @@ lrelease translations/porymap_zh_CN.ts -qm porymap_zh_CN.qm
 ## 许可证
 
 Porymap 源码按 LGPL-3.0-or-later 授权。Qt 和随包的 MinGW/第三方运行库使用各自的许可证；对应文本和通知位于 `LICENSES`。上游许可证也保留在 `source-code/LICENSE.md`。
+
 
